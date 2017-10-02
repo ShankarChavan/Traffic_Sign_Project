@@ -119,7 +119,7 @@ Answer:
 ![alt text][image6]
 ![alt text][image7]
 ![alt text][image8]
-![alt text](image9)
+![alt text][image9]
 
 #### 2. Here are the results of the prediction:
 
