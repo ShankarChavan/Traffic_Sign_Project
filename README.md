@@ -13,7 +13,7 @@
 [image9]: ./web_images/turn_left_ahead.png "Turn Left"
 
 
-The task was to buid a traffic sign recognition convolution nueral network.
+The task was to build a traffic sign recognition convolution nueral network.
 
 Following were the tools used to build the project.
 * python 3
