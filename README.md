@@ -1,4 +1,17 @@
 # Traffic Sign Recognition
+---
+[//]: # (Image References)
+
+[image3]: ./Plots/test.png "test hist"
+[image1]: ./Plots/training.png "train hist"
+[image2]: ./Plots/validation.png "valid hist"
+[image4]: ./Plots/Softmax_traffic_sign_prob.png "softmax prob"
+[image5]: ./web_images/No_entry.png "No Entry"
+[image6]: ./web_images/keep_left.png "Keep Left"
+[image7]: ./web_images/keep_right.png "Keep Right"
+[image8]: ./web_images/turn_right_ahead.svg.png "Turn Right"
+[image9]: ./web_images/turn_left_ahead.png "Turn Left"
+
 
 The task was to buid a traffic sign recognition convolution nueral network.
 
@@ -38,9 +51,9 @@ sign data set
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed in training,test and validation set.
 
-![training plot]('https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/Plots/training.png',"training hist")
-![test plot]('https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/Plots/test.png',,"test hist")
-![validation plot]('https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/Plots/validation.png',,"validation hist")
+![alt text](image1)
+![alt text](image2)
+![alt text](image3)
 
 
 
@@ -102,11 +115,11 @@ Answer:
 ### Test a Model on New Images
 #### 1.Here are the 5 german traffic signs I found on internet
 
-![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/turn_right_ahead.svg.png)
-![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/turn_left_ahead.png)
-![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/keep_right.png)
-![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/keep_left.png)
-![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/No_entry.png)
+![alt text](image5)
+![alt text](image6)
+![alt text](image7)
+![alt text](image8)
+![alt text](image9)
 
 #### 2. Here are the results of the prediction:
 
@@ -119,4 +132,4 @@ Answer:
 | No entry | No entry |
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%.
-![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/Plots/Softmax_traffic_sign_prob.png)
+![alt text](image4)
