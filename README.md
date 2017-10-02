@@ -31,7 +31,7 @@ The goal / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report
 *****
-Link for the [project code]()
+Link for the [project code](https://github.com/ShankarChavan/Traffic_Sign_Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Dataset Summary and Exploration
 
