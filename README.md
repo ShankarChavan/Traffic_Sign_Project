@@ -2,15 +2,15 @@
 
 [//]: # (Image References)
 
-[image3]: Plots/test.png "test hist"
-[image1]: Plots/training.png "train hist"
-[image2]: Plots/validation.png "valid hist"
-[image4]: Plots/Softmax_traffic_sign_prob.png "softmax prob"
-[image5]: web_images/No_entry.png "No Entry"
-[image6]: web_images/keep_left.png "Keep Left"
-[image7]: web_images/keep_right.png "Keep Right"
-[image8]: web_images/turn_right_ahead.svg.png "Turn Right"
-[image9]: web_images/turn_left_ahead.png "Turn Left"
+[image3]: ./Plots/test.png "test hist"
+[image1]: ./Plots/training.png "train hist"
+[image2]: ./Plots/validation.png "valid hist"
+[image4]: ./Plots/Softmax_traffic_sign_prob.png "softmax prob"
+[image5]: ./web_images/No_entry.png "No Entry"
+[image6]: ./web_images/keep_left.png "Keep Left"
+[image7]: ./web_images/keep_right.png "Keep Right"
+[image8]: ./web_images/turn_right_ahead.svg.png "Turn Right"
+[image9]: ./web_images/turn_left_ahead.png "Turn Left"
 
 
 The task was to buid a traffic sign recognition convolution nueral network.
@@ -51,9 +51,9 @@ sign data set
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed in training,test and validation set.
 
-![alt text](image1)
-![alt text](image2)
-![alt text](image3)
+![alt text][image1]
+![alt text][image2]
+![alt text][image3]
 
 
 
@@ -109,16 +109,16 @@ To train the model, I used the following hyperparameters:
 
 Answer:
 1. Preprocessed the data by using grayscale and normalizing
-2. Trained withe Lenet architecture as problem seems to be similar to image classfification which they described in their paper.Initially the acuracy was very low under 90% so I added the dropout layer,tried with different learning rate but **0.00099** gave good result.Also added dropout in the layer 1 and layer 2 but they didn't helped much.
+2. Trained withe Lenet architecture as problem seems to be similar to image classfification which they described in their paper.Initially the acuracy was very low under 90% so I added the dropout layer,tried with different learning rate but **0.0009** gave good result.Also added dropout in the layer 1 and layer 2 but they didn't helped much.
 3. Keep _probability of 50% was giving good results compare to 70% and 60%.
 
 ### Test a Model on New Images
 #### 1.Here are the 5 german traffic signs I found on internet
 
-![alt text](image5)
-![alt text](image6)
-![alt text](image7)
-![alt text](image8)
+![alt text][image5]
+![alt text][image6]
+![alt text][image7]
+![alt text][image8]
 ![alt text](image9)
 
 #### 2. Here are the results of the prediction:
@@ -132,4 +132,4 @@ Answer:
 | No entry | No entry |
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%.
-![alt text](image4)
+![alt text][image4]
