@@ -38,6 +38,10 @@ sign data set
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed in training,test and validation set.
 
+![training plot]('https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/Plots/training.png',"training hist")
+![test plot]('https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/Plots/test.png',,"test hist")
+![validation plot]('https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/Plots/validation.png',,"validation hist")
+
 
 
 
@@ -98,11 +102,11 @@ Answer:
 ### Test a Model on New Images
 #### 1.Here are the 5 german traffic signs I found on internet
 
-![]()
-![]()
-![]()
-![]()
-![]()
+![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/turn_right_ahead.svg.png)
+![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/turn_left_ahead.png)
+![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/keep_right.png)
+![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/keep_left.png)
+![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/web_images/No_entry.png)
 
 #### 2. Here are the results of the prediction:
 
@@ -115,4 +119,4 @@ Answer:
 | No entry | No entry |
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%.
-![]()
+![](https://github.com/ShankarChavan/Traffic_Sign_Project/tree/master/Plots/Softmax_traffic_sign_prob.png)
