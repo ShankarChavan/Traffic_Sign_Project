@@ -5,7 +5,7 @@
 [image3]: ./Plots/test.png "test hist"
 [image1]: ./Plots/training.png "train hist"
 [image2]: ./Plots/validation.png "valid hist"
-[image4]: ./Plots/Softmax_traffic_sign_prob.png "softmax prob"
+[image4]: ./Plots/softmax_prob_img.png "softmax prob"
 [image5]: ./web_images/No_entry.png "No Entry"
 [image6]: ./web_images/keep_left.png "Keep Left"
 [image7]: ./web_images/keep_right.png "Keep Right"
@@ -127,7 +127,7 @@ Answer:
 | ----- | :---------:|
 | Turn Right Ahead | Turn Right Ahead |
 | Keep Left | Keep Left |
-| Turn Left Ahead | Keep Right |
+| Turn Left Ahead | Speed limit (30 km/h) |
 | Keep Right | Keep Right |
 | No entry | No entry |
 
