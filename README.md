@@ -1,16 +1,16 @@
 # Traffic Sign Recognition
----
+
 [//]: # (Image References)
 
-[image3]: ./Plots/test.png "test hist"
-[image1]: ./Plots/training.png "train hist"
-[image2]: ./Plots/validation.png "valid hist"
-[image4]: ./Plots/Softmax_traffic_sign_prob.png "softmax prob"
-[image5]: ./web_images/No_entry.png "No Entry"
-[image6]: ./web_images/keep_left.png "Keep Left"
-[image7]: ./web_images/keep_right.png "Keep Right"
-[image8]: ./web_images/turn_right_ahead.svg.png "Turn Right"
-[image9]: ./web_images/turn_left_ahead.png "Turn Left"
+[image3]: Plots/test.png "test hist"
+[image1]: Plots/training.png "train hist"
+[image2]: Plots/validation.png "valid hist"
+[image4]: Plots/Softmax_traffic_sign_prob.png "softmax prob"
+[image5]: web_images/No_entry.png "No Entry"
+[image6]: web_images/keep_left.png "Keep Left"
+[image7]: web_images/keep_right.png "Keep Right"
+[image8]: web_images/turn_right_ahead.svg.png "Turn Right"
+[image9]: web_images/turn_left_ahead.png "Turn Left"
 
 
 The task was to buid a traffic sign recognition convolution nueral network.
