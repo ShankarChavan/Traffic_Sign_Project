@@ -67,7 +67,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
  Here is an example of a traffic sign image before and after grayscaling.
  
  **Step 2. Normalize**
- In the second step I normalized data, before normalizing mean of the training data was around 82 but after normalizing mean got shifted to -0.32.
+ In the second step I normalized data, before normalizing mean of the training data was around 82 but after normalizing mean got shifted to -0.35.
 Normalizing bought the data between scale of -1 and 1 and thus it helped the algorithm learn faster because the features will be given equal weights and distribution of data will not be wider.
 
  **Step 2. Shuffle**
@@ -100,7 +100,7 @@ To train the model, I used the following hyperparameters:
 
 * preprocessed images
 * Adam optimizer
-* Learning reate 0.00099
+* Learning reate 0.0009
 * Batch Size 128
 * Epochs 15
 * Dropout Keep Probability 0.5
